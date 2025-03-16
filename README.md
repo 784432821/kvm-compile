@@ -2,7 +2,7 @@
 Docker compilation container for KVM programs
 
 # Create a compilation container
-```sudo docker run -tid --net=host -v /home/test:/root --name kvm-build 784432821/giso-compiler /bin/bash```  
+```sudo docker run -tid --net=host -v /home/test:/root --name kvm-build 784432821/kvm-compile /bin/bash```  
 ```sudo docker exec -ti kvm-build /bin/bash```  
 
 
