@@ -21,3 +21,5 @@ RUN apt-get install -y libncurses5-dev libncursesw5-dev libnuma-dev libpq-dev
 RUN apt-get install -y automake pciutils gdb vim sysstat linux-tools-common
 RUN apt-get install -y numactl git iproute2
 RUN apt-get install -y libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-tools
+RUN apt-get install -y net-tools tftpd-hpa bison flex postgresql-client
+COPY ./librockchip_mpp.so /usr/lib/aarch64-linux-gnu/
