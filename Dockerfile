@@ -24,3 +24,4 @@ RUN apt-get install -y libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.
 RUN apt-get install -y net-tools tftpd-hpa bison flex postgresql-client libedit-dev
 COPY ./librockchip_mpp.so /usr/lib/aarch64-linux-gnu/
 COPY ./libgstrockchipmpp.so /usr/lib/aarch64-linux-gnu/gstreamer-1.0/
+RUN apt-get install -y monit
