@@ -26,3 +26,4 @@ COPY ./librockchip_mpp.so /usr/lib/aarch64-linux-gnu/
 COPY ./libgstrockchipmpp.so /usr/lib/aarch64-linux-gnu/gstreamer-1.0/
 RUN apt-get install -y monit
 RUN apt-get install -y libtool libpng-dev
+RUN apt-get install -y libdrm-dev
