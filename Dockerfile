@@ -27,3 +27,4 @@ COPY ./libgstrockchipmpp.so /usr/lib/aarch64-linux-gnu/gstreamer-1.0/
 RUN apt-get install -y monit
 RUN apt-get install -y libtool libpng-dev
 RUN apt-get install -y libdrm-dev
+RUN apt-get install -y libfreetype6-dev
